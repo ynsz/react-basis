@@ -1,4 +1,4 @@
-export const ColorfulMessage = ({color, children}) => {
+const ColorfulMessage = ({color, children}) => {
     console.log("---ColorfulMessage---");
     const contentStyleA = {
         color,
